@@ -46,11 +46,11 @@ R= mkdir unix_tests
 13- Limpe o terminal.
     R=  clear
 
-15- Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+14- Mostre na tela as 5 primeiras skills do arquivo skills.txt.
     R=  head -5 skills.txt
 
-16- Mostre na tela as 4 últimas skills do arquivo skills.txt.
+15- Mostre na tela as 4 últimas skills do arquivo skills.txt.
     R=  tail -4 skills.txt
 
-17- Apague todos os arquivos que terminem em .txt.
+16- Apague todos os arquivos que terminem em .txt.
     R=  rm *.txt
