@@ -1,0 +1,43 @@
+Exercício 02
+
+01- Navegue até a pasta unix_tests;
+    R=  cd /home/paulo-f/Documentos/Trybe/Aula1/Exercício/unix_tests
+
+02- Rode o comando ls -l e veja quais as permissões dos arquivos;
+    R=  ls -l
+            -rw-rw-r-- 1 paulo-f paulo-f 130 set  9 10:12 bunch_of_things_ordered.txt
+            -rw-rw-r-- 1 paulo-f paulo-f 129 set  9 10:11 bunch_of_things.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  14 set  9 10:09 countries.txt
+            -rw-rw-r-- 1 paulo-f paulo-f 115 set  9 10:08 phrases2.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  59 set  9 09:56 skills.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  19 set  9 10:02 top_skills.txt
+
+03- Mude a permissão do arquivo bunch_of_things.txt para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando ls -l;
+    R=  chmod o+w bunch_of_things.txt 
+        ls -l
+            -rw-rw-r-- 1 paulo-f paulo-f 130 set  9 10:12 bunch_of_things_ordered.txt
+            -rw-rw-rw- 1 paulo-f paulo-f 129 set  9 10:11 bunch_of_things.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  14 set  9 10:09 countries.txt
+            -rw-rw-r-- 1 paulo-f paulo-f 115 set  9 10:08 phrases2.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  59 set  9 09:56 skills.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  19 set  9 10:02 top_skills.txt
+
+04- Tire a permissão de escrita do arquivo bunch_of_things.txt para todos os usuários, verifique se está correto com o comando ls -l;
+    R=  chmod a-w bunch_of_things.txt 
+        ls -l
+            -rw-rw-r-- 1 paulo-f paulo-f 130 set  9 10:12 bunch_of_things_ordered.txt
+            -r--r--r-- 1 paulo-f paulo-f 129 set  9 10:11 bunch_of_things.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  14 set  9 10:09 countries.txt
+            -rw-rw-r-- 1 paulo-f paulo-f 115 set  9 10:08 phrases2.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  59 set  9 09:56 skills.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  19 set  9 10:02 top_skills.txt
+
+05- Volte à permissão do arquivo bunch_of_things.txt para a listada inicialmente utilizando o comando chmod 644 bunch_of_things.txt.
+    R=  chmod 644 bunch_of_things.txt 
+        ls -l 
+            -rw-rw-r-- 1 paulo-f paulo-f 130 set  9 10:12 bunch_of_things_ordered.txt
+            -rw-r--r-- 1 paulo-f paulo-f 129 set  9 10:11 bunch_of_things.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  14 set  9 10:09 countries.txt
+            -rw-rw-r-- 1 paulo-f paulo-f 115 set  9 10:08 phrases2.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  59 set  9 09:56 skills.txt
+            -rw-rw-r-- 1 paulo-f paulo-f  19 set  9 10:02 top_skills.txt
