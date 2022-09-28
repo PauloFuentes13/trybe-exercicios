@@ -6,18 +6,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web
 
-##### Bloco 1: Introdução - Unix & Shell
+##### Seção 1: Introdução - Unix & Shell
 
 - [x] 1-1: _Unix & Shell- Part 1_
 - [x] 1-2: _Unix & Shell- Part 2_
 
-##### Bloco 2: Git & GitHub
+##### Seção 2: Git & GitHub
 
 - [x] 2-1: _O que é e para que serve?_
 - [x] 2-2: _Entendendo os comandos_
 - [x] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução á HTML & CSS
+##### Seção 3: Introdução á HTML & CSS
 
 - [x] 3-1: _Introdução HTML & CSS_
 - [x] 3-1: _HTML & CSS - Estruturas de página_
@@ -26,12 +26,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _Projeto - Lessons Learned_
 
-##### Bloco 4: Introdução à JavaScript
+##### Seção 4: Introdução à JavaScript
 
 - [x] 4-1: _Introdução à JavaScript_
 - [x] 4-2: _Array e loop For_
 - [x] 4-3: _Lógica de Programação e Algoritmos_
-- [ ] 4-4: _Objetos e funções_
-- [ ] 4-5: _Projeto - Playground Functions_
+- [x] 4-4: _Objetos e funções_
+- [x] 4-5: _Projeto - Playground Functions_
 
+
+##### Seção 5: JavaScript: DOM, Eventos e Web Storage
+
+- [x] 5-1: _DOM e seletores_
+- [x] 5-2: _Trabalhando com elementos_
+- [x] 5-3: _Eventos_
+- [x] 5-4: _Web Starage_
+- [x] 5-5: _Projeto - Arte com Pixels_
+- [x] 5-6: _Projetos Bônus_
 
