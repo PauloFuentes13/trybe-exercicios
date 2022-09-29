@@ -54,6 +54,45 @@
       5. Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
       6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
       */
+
+      function changeParagraph() {
+        let paragraph = document.getElementsByTagName('p')[1];
+      paragraph.innerText = 'Me vejo trabalhando na área de programação e bem realizado.';
+      }
+      changeParagraph();
+      
+      function changeColorYellow() {
+        let changeYellow = document.getElementsByClassName('main-content')[0];
+        changeYellow.style.background = "rgb(76,164,109)";
+      }
+      changeColorYellow();
+    
+      function changeColorRed() {
+        let changeRed = document.getElementsByClassName('center-content')[0];
+        changeRed.style.background = 'white';
+      }
+      changeColorRed();
+
+      function correctTitle() {
+        let correct = document.getElementsByTagName('h1')[0];
+        correct.innerText = 'Exercício - JavaScript';
+      }
+      correctTitle()
+
+      function capsParagraph() {
+        let caps = document.getElementsByTagName('p')[0];
+        caps.innerText = 'TEXTO PADRÃO DO NOSSO SITE';
+      }
+      capsParagraph();
+
+      function consoleLog() {
+        let log = document.getElementsByTagName('p'); 
+        for (let index = 0; index < log.length; index += 1) {
+          console.log(log[index].innerHTML);
+        }
+      }
+      consoleLog()
+
     </script>
   </body>
 </html>
