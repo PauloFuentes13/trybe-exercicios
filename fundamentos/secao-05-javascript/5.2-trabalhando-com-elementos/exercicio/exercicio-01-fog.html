@@ -61,17 +61,28 @@
     //   Adicione a tag h1 com o texto Exercício - JavaScript DOM como filho da tag body;
     const body = document.querySelector('body');
     function addH1() {
-        const h1 = document.createElement('h1');
-        h1.innerText = 'Exercício - JavaScript DOM';
-        document.body.appendChild(h1);
+        const eleH1 = document.createElement('h1');
+        eleH1.innerText = 'Exercício - JavaScript DOM';
+        body.appendChild(eleH1);
     }
     addH1();
 
     function addMain() {
-      const main = document.createElement('main');
-      main.className = 'main-content';
-      document.body.appendChild(main);
+      const eleMain = document.createElement('main');
+      eleMain.className = 'main-content';
+      body.appendChild(eleMain);
     }
+    addMain();
+
+    function addSection() {
+      const eleSection = document.createElement('section');
+      eleSection.className = 'center-content';
+      document.querySelector('.main-content').appendChild(eleSection);
+    }
+    addSection();
+
+    
+
     </script>
   </body>
 </html>
