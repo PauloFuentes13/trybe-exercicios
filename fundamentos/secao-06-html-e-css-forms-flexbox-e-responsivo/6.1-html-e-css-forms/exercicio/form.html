@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <header>
+        <h1>TrybeTrip</h1>
+        <h2 id="subT-header">Concorra a uma viagem com tudo pago!</h2>
+    </header>
+    <body>
+        <h2 id="title-form">Preencha este formulário e concorra.</h2>
+        <form action="get" id="from">
+            <section>
+                <label for="fullName">Nome:</label>
+                <input type="text" name="fullName" id="name" placeholder="Digite seu nome aqui" maxlength="40" minlength="10" required>
+            </section>
+            <br>
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email aqui" maxlength="50" minlength="10" required>
+            </section>
+            <br>
+            <section>
+                <input type="radio" name="cidade" id="cidade" required>
+                <label for="cidade">Cidade</label>
+
+                <input type="radio" name="campo" id="campo" required>
+                <label for="campo">Campo</label>
+
+                <input type="radio" name="praia" id="praia" required>
+                <label for="praia">Praia</label>
+
+                <input type="radio" name="montanhas" id="montanhas" required>
+                <label for="montanhas">Montanhas</label>
+            </section>
+            <br>
+            <section>
+                <label for="">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+                <br>
+                <textarea name="PorQue" id="pq" cols="50" rows="10" placeholder="Limite de 500 caracteres"></textarea>
+            </section>
+            <br>
+            <section>
+                <label for="">Qual a melhor data para realizar sua viagem?</label>
+                <br>
+                <input type="date" name="" id="">
+            </section>
+            <br>
+            <section>
+                <input type="checkbox" name="" id="">
+                <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                <br>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+            </section>
+            <br>
+            <section>
+                <button id="enviar">
+                    Enviar
+                </button>
+                <button id="limpar">
+                    Limpar
+                </button>
+                <!-- <input type="button" id="enviar" value="Enviar">
+                <input type="button" id="limpar" value="Limpar"> -->
+            </section>
+        </form>
+    </body>
+    <script src="./scrip.js"></script>
+</html>
