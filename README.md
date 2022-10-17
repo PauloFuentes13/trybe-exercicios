@@ -13,7 +13,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] Bloco 3: Introdução à HTML e CSS.
 - [x] Bloco 4: Introdução à JavaScript e Lógica de Programação.
 - [x] Bloco 5: JavaScript: DOM, Eventos e Web Storage.
-- [ ] Bloco 6: HTML e CSS: Forms, Flexbox e Repositorio.
+- [x] Bloco 6: HTML e CSS: Forms, Flexbox e Repositorio.
 - [ ] Bloco 7: Introdução à JavaScript ES6 e Testes Unitários.          
 - [ ] Bloco 8: Higher Order Functions do JavaScript ES6.
 
