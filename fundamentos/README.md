@@ -53,10 +53,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _Projeto - Trybewarts_
 
-##### Seção 6: HTML e CSS: Forms, Flexbox e Responsivo
+##### Seção 7: Introdução à JavaScript ES6 e Testes Unitários
 
-- [ ] 6-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 6-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [ ] 6-3: _Primeiros passos em Jest_
-- [ ] 6-4: _Projeto - JavaScript Testes Unitários_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [x] 7-3: _Primeiros passos em Jest_
+- [x] 7-4: _Projeto - JavaScript Testes Unitários_
+
+##### Seção 8: Higher Order Functions do JavaScript ES6
+
+
+- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [ ] 8-6: _Projeto - Zoo functions_
 
